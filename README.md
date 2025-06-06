@@ -115,7 +115,7 @@ curl -X POST "http://127.0.0.1:8000/processar_mensagem/" \
 ### Vídeo de Demonstração
 
 Assista a uma demonstração da API em funcionamento:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e0DskLuqUus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://youtu.be/e0DskLuqUus
 
 * Inicie o servidor da API conforme descrito na seção "Executando a API".
 * Envie requisições POST para o endpoint /processar_mensagem/ utilizando:
