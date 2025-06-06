@@ -112,6 +112,11 @@ curl -X POST "http://127.0.0.1:8000/processar_mensagem/" \
 # Demonstração Funcional
 ## A funcionalidade da API pode ser demonstrada da seguinte forma:
 
+### Vídeo de Demonstração
+
+Assista a uma demonstração da API em funcionamento:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e0DskLuqUus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 * Inicie o servidor da API conforme descrito na seção "Executando a API".
 * Envie requisições POST para o endpoint /processar_mensagem/ utilizando:
 * Ferramentas de linha de comando como curl (veja exemplo acima).
@@ -159,4 +164,3 @@ Mensagem com Forte Sentimento Negativo:
 }
 ```
 * Resultado Esperado: Score de prioridade elevado devido ao sentimento "negative" e palavras-chave como "desesperado", "ambulância", "socorro", "urgente", resultando em prioridade "ALTA" ou "CRÍTICA".
-
