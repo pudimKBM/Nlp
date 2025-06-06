@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+spacy>=3.0
+transformers
+torch
+sentencepiece
+pydantic
